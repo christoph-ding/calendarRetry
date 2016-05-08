@@ -2,8 +2,52 @@ h1 {
   background: red;
 }
 
+table {
+  margin: 0px;
+  padding: 0px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead {
+  margin: 0px;
+  padding: 0px;
+}
+
+tbody {
+  margin: 0px;
+  padding: 0px;
+}
+
+tr {
+  margin: 0px;
+  padding: 0px;
+}
+
+th {
+  margin: 0px;
+  padding: 0px;
+}
+
+table .day-section {
+  width: 15%;
+}
+
+table .hour {
+  width: 15%;
+}
+
+table .half-hour {
+  width: 15%;
+}
+
+table .event {
+  width: 55%;
+}
+
 .day {
   margin: 0px;
   padding: 0px;
   outline: 1px solid gray;
- }
+}
+
