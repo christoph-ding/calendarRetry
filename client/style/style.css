@@ -1,3 +1,9 @@
 h1 {
   background: red;
 }
+
+.day {
+  margin: 0px;
+  padding: 0px;
+  outline: 1px solid gray;
+ }

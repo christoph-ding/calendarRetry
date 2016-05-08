@@ -12,6 +12,12 @@ server.listen(port, function() {
 // Static Files
 server.use(express.static(path.resolve(__dirname + '/../client/')));
 
+server.use(function(req, res, next) {
+  console.log('time:', Date.now());
+  next();
+});
+
 server.get('/', function(req, res) {
+  console.log('sending static files...');
   res.sendFile('index.html', { root: path.join(__dirname + '/../client/pages/')});
 });
